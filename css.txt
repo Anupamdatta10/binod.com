@@ -1,0 +1,14 @@
+css-cascading style sheet
+
+css is 3 types:-
+1>internal css(style tag)
+2>external css(external file)
+3>inline css(inside the tag)
+
+css access :-
+1>usig tag
+2>id
+3>class
+
+
+
