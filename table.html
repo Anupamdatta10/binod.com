@@ -1,12 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    
+
     <title>Document</title>
+    <style>
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: blue;
+            position: fixed;
+            width: 100%;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            padding: 14px 16px;
+            display: block;
+            color: brown;
+        }
+
+        li a:hover {
+            background-color: royalblue;
+        }
+        *
+        {
+            box-sizing: border-box;
+        }
+        .col
+        {
+            
+            border:2px solid black;
+            height: 400px;
+            float: left;
+        }
+        .x3
+        {
+            width: 30%;
+        }
+        .x7
+        {
+            width: 70%;
+        }
+        .row
+        {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
+
 <body>
+
+    <ul>
+        <li style="background-color: aqua;"><a href="#">home</a></li>
+        <li><a href="#">contact</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">registration</a></li>
+    </ul>
+
+    
+
+
     <marquee scrollamount="20" behavior="alternate">result</marquee>
-    <table border="1">
+    <table border="1" style="margin-top:30px;">
         <tr>
             <th>subject</th>
             <th>marks</th>
@@ -24,6 +86,25 @@
 
         </tr>
     </table>
+
+    <div class="row"> <!--container-->
+        <div class="col x3"><!--components-->
+            <img src="paris.jpg" alt="">
+        </div>
+        <div class="col x7"><!--components-->
+        <h1>pasris ar picture</h1>
+        </div>
+    </div>
     
+    <div class="row"> <!--container-->
+        <div class="col x3"><!--components-->
+            <img src="paris.jpg" alt="">
+        </div>
+        <div class="col x7"><!--components-->
+        <h1>pasris ar picture</h1>
+        </div>
+    </div>
+
 </body>
+
 </html>

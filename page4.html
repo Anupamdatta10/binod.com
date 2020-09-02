@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function f()
+        {
+        var a,b,c;
+        a=parseInt(document.getElementById("i1").value);
+        b=parseInt(document.getElementById("i2").value);
+        c=a+b;
+        document.write("ans="+c);
+        }
+        function f1()
+        {
+        var a,b,c;
+        a=parseInt(document.getElementById("i1").value);
+        b=parseInt(document.getElementById("i2").value);
+        c=a-b;
+        document.write("ans="+c);
+        }
+
+
+    </script>
+</head>
+<body>
+    <form>
+        <input type="number" id="i1">
+        <input type="number" id="i2">
+        <input type="button" value="+" onclick="f()">
+        <input type="button" value="-" onclick="f1()">
+    </form>
+</body>
+</html>
